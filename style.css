@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(126, 126, 185);
+    color: rgb(51, 49, 47);
+}
+
+
+#refresh{
+    background-color: rgb(55, 140, 238);
+    border: rgb(55, 140, 238) solid;
+}
+#refresh:hover{
+    color: white;
+}

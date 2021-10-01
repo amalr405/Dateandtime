@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>    
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+    <div class="container">
+    <a href="#" class="navbar-brand">Dates and Times</a>
+    <button class="navbar-toggler" 
+    type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#us" class="nav-link" id="spanus">United States</a>
+            </li>
+            <li class="nav-item">
+                <a href="#ind" class="nav-link" id="spanind">India</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<div class="container">
+    <h1 id="us" ></h1>
+    <br>
+    <h1 id="ind"></h1>
+    <button id="refresh" onclick="window.location.reload()">Refresh</button>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML =
+    this.responseText;
+  }
+  xhttp.open("GET", "ajax_info.txt");
+  xhttp.send();
+}
+</script>
+
+</body>
+</html> -->
